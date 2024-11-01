@@ -180,31 +180,8 @@
         <version>8.5.13</version>
         <configuration>
           <baselineOnMigrate>true</baselineOnMigrate>
-          <!--<user>user</user>
-          <password>password</password>
-          <schemas>
-              <schema>schemaName</schema>
-          </schemas>  -->
-
-<!--          для лекции 04-->
-<!--          <url>jdbc:sqlite:for_lesson_04.db</url>-->
-<!--          <locations>filesystem:db/lesson_04/migration</locations>-->
-
-<!--          для семинара 04-->
-<!--          <url>jdbc:sqlite:for_seminar_04.db</url>-->
-<!--          <locations>filesystem:db/seminar_04/migration</locations>-->
-
-<!--          для домашней работы 04-->
-<!--          <url>jdbc:sqlite:for_homework_04.db</url>-->
-<!--          <locations>filesystem:db/homework_04/migration</locations>-->
-
-<!--          для лекции 06-->
           <url>jdbc:sqlite:for_lesson_06.db</url>
           <locations>filesystem:db/lesson_06/migration</locations>
-
-<!--          для домашней работы 06-->
-<!--          <url>jdbc:sqlite:for_homework_06.db</url>-->
-<!--          <locations>filesystem:db/homework_06/migration</locations>-->
         </configuration>
       </plugin>
     </plugins>
